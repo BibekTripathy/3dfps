@@ -398,6 +398,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardColor: 0
+  originalMaterial: {fileID: 0}
+  wasHit: 0
 --- !u!65 &789629153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1038,6 +1040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardColor: 1
+  originalMaterial: {fileID: 0}
+  wasHit: 0
 --- !u!65 &1105437350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1408,6 +1412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardColor: 1
+  originalMaterial: {fileID: 0}
+  wasHit: 0
 --- !u!65 &1391100937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1713,7 +1719,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd28cc9e9aaea5448bafa0c19417d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walls: []
+  hitMaterial: {fileID: 0}
   scoreText: {fileID: 156284011}
+  currentScore: 0
+  restartDelay: 2
 --- !u!1 &1591800377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,6 +1954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardColor: 0
+  originalMaterial: {fileID: 0}
+  wasHit: 0
 --- !u!1 &1696838973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2078,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardColor: 1
+  originalMaterial: {fileID: 0}
+  wasHit: 0
 --- !u!1 &1911657287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2234,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardColor: 0
+  originalMaterial: {fileID: 0}
+  wasHit: 0
 --- !u!65 &1997357715
 BoxCollider:
   m_ObjectHideFlags: 0
