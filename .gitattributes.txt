@@ -1,0 +1,13 @@
+# Enforce LF for all text files
+* text=auto eol=lf
+
+# Explicitly handle Unity files
+*.cs text eol=lf
+*.shader text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# Binary files should never be modified
+*.png binary
+*.fbx binary
+*.unity binary

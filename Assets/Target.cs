@@ -33,4 +33,10 @@ public class Target : MonoBehaviour
         
         Destroy(bullet.gameObject);
     }
+    public void ResetTarget()
+{
+    // Reset any target-specific states here
+    wasHit = false;
+    // Add any other reset logic needed
+}
 }
